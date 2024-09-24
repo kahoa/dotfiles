@@ -38,3 +38,6 @@ connect_ec2() {
     fi
 }
 
+react() {
+	npx create-react-app $*
+}
